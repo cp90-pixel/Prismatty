@@ -1,0 +1,34 @@
+{
+  "name": "prismatty",
+  "version": "0.1.0",
+  "description": "Lightweight ANSI color styling helpers for Node.js consoles.",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ansi",
+    "color",
+    "console",
+    "terminal",
+    "styling"
+  ],
+  "scripts": {
+    "test": "node ./test/run-tests.js"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
